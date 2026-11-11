@@ -1,0 +1,9 @@
+project: savantenvs/chiaki-ng
+target: fuzz_frame_processor
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_frame_processor/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_frame_processor
+    libfuzzer: true
+    timeout: 25

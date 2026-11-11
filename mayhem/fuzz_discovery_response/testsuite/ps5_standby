@@ -1,0 +1,10 @@
+HTTP/1.1 620 Server Standby
+host-id:F0EF0E0ABCDE
+host-type:PS5
+host-name:PS5-001
+host-request-port:997
+device-discovery-protocol-version:00030010
+system-version:08000000
+running-app-titleid:CUSA00001
+running-app-name:Game
+
